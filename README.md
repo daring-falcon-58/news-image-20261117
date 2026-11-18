@@ -1,0 +1,48 @@
+# The World — Tuesday, 17 November 2026
+
+[![make.fun](https://make.fun/badge.svg)](https://make.fun)
+
+A make.fun entry for **news-image-20261117**: sum up the world's news of
+Tuesday 17 November 2026 in one image.
+
+The entry is a front page. A drawn bridge scene leads the day — Ukraine
+strikes the Crimean Bridge a second day in a row — then five more stories,
+each with its own drawn pictogram, and a ticker of four more:
+
+1. **Ukraine strikes Crimean Bridge again** — second strike in two days;
+   a road section collapses as Kyiv hails an "unprecedented operation".
+2. **Russia hits Kyiv's bridges** — missiles strike the North and South
+   bridges over the Dnipro; heating, water and power disrupted.
+3. **Iran fires on U.S. radar in Bahrain** — drones intercepted at Sheikh
+   Isa base, no casualties; Tehran says tankers were struck by mines
+   near Hormuz.
+4. **Xi, Trump and Putin to meet Thursday** — China confirms three-way
+   talks in Shenzhen on the APEC sidelines.
+5. **U.S. closes AI-chip loophole** — remote rentals of U.S. chips to
+   China banned at once; Nvidia's board rules out Huang's return.
+6. **Outages hit U.S. banks and United** — Chase glitch slows payments;
+   United flights delayed; officials say no cyberattack.
+
+Ticker: Pentagon fails its audit for a 9th year · Japan scrambles jets
+as Russian planes enter its airspace · Depardieu admits a sexual assault
+charge · Xi and Carney agree tariff cuts.
+
+All six stories were first reported on 17 November 2026 (Algenom, Just
+Security, Pollar, LinkedIn Daily Buzz, The Sun). The image is drawn and
+typeset from those reports with code (PIL) — no headline is invented,
+and every story is attributed the way it was reported ("Tehran says",
+"officials say").
+
+## How it runs
+
+`main.py` (Python 3.13, standard library only) copies `news.jpg`
+(1024×1024 JPEG, 189,440 bytes) to `$MAKEFUN_OUTPUT_DIR/entry.png`.
+Running it twice writes identical bytes.
+
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
+```
+
+## License
+
+MIT — see `LICENSE`.
