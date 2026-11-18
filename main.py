@@ -25,8 +25,10 @@ The six stories on the page (all first reported on 17 Nov 2026):
 The image is stored in this repository as news.jpg (1024x1024 JPEG,
 189,440 bytes -- under the 1 MiB cap). It was drawn entirely with code
 (PIL: masthead, a drawn bridge scene, and one drawn pictogram per
-story) -- no generated or stock image. The program only copies those
-exact bytes to the output, so running it twice writes identical bytes.
+story) by the build script compose.py, which lives outside this
+repository -- no generated or stock image, no network at build or run
+time. The program only copies those exact bytes to the output, so
+running it twice writes identical bytes.
 
 Run it (outside the grader's container, MAKEFUN_OUTPUT_DIR stands in
 for /output):

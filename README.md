@@ -31,7 +31,9 @@ All six stories were first reported on 17 November 2026 (Algenom, Just
 Security, Pollar, LinkedIn Daily Buzz, The Sun). The image is drawn and
 typeset from those reports with code (PIL) — no headline is invented,
 and every story is attributed the way it was reported ("Tehran says",
-"officials say").
+"officials say"). Each story carries its own drawn pictogram, so the
+picture tells the story as well as the words do: the bridge, the Kyiv
+skyline, the radar dome, the three flags, the chip, the plane and bank.
 
 ## How it runs
 
